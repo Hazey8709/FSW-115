@@ -1,0 +1,136 @@
+{
+    "Appetizers": [
+        {
+            "name": "noobie JR.",
+            "size": "junior",
+            "ingredients": [
+                "ground chicken",
+                "cheese",
+                "onions",
+                "peppers",
+                "secret sauce"
+            ],
+            "description": "junior size ground chicken meat treat"
+        },
+        {
+            "name": "noobie SR.",
+            "size": "senior",
+            "ingredients": [
+                "cheese",
+                "ground chicken",
+                "onions",
+                "peppers",
+                "secret sauce"
+            ],
+            "description": "senior size ground chicken meat treat"
+        }
+    ],
+    "Hot sandwiches": [
+        {
+            "name": "rodeo burg",
+            "size": "junior",
+            "ingredients": [
+                "special sauce",
+                "tomato",
+                "cheese",
+                "onions",
+                "peppers",
+                "1 pound of beef"
+            ],
+            "description": "junior sized burger"
+        },
+        {
+            "name": "rodeo burg",
+            "size": "big daddy",
+            "ingredients": [
+                "2 pounds of beef",
+                "cheese",
+                "onions",
+                "peppers",
+                "tomato",
+                "special sauce"
+            ],
+            "description": "Big daddy sized burger"
+        }
+    ],
+    "Cold sandwiches": [
+        {
+            "name": "thin meat",
+            "size": "thin",
+            "ingredients": [
+                "thin cold cuts",
+                "ham",
+                "turkey",
+                "capola",
+                "cheese",
+                "lettuce",
+                "special light sauce"
+            ],
+            "description": "thin cold cut grinder"
+        },
+        {
+            "name": "thick meat",
+            "size": "thick",
+            "ingredients": [
+                "thick cold cuts",
+                "ham",
+                "capola",
+                "cheese",
+                "onions",
+                "lettuce",
+                "peppers",
+                "secret thick sauce"
+            ],
+            "description": "thick cold cut grinder"
+        }
+    ],
+    "Desserts": [
+        {
+            "name": "black desert",
+            "size": "timbal",
+            "ingredients": [
+                "choc ice cream",
+                "choc thick cream",
+                "choc fudge liquid",
+                "choc drizzle"
+            ],
+            "description": "choc madness dessert"
+        },
+        {
+            "name": "white desert",
+            "size": "timbal",
+            "ingredients": [
+                "white choc ice cream",
+                "white choc thick cream",
+                "white choc fudge liquid",
+                "white choc drizzle"
+            ],
+            "description": "white choc madness dessert"
+        }
+    ],
+    "drinks": [
+        {
+            "name": "drunk",
+            "ingredients": [
+                "tall glass",
+                "grey goose vodka",
+                "tonic water",
+                "sugar",
+                "blue die coloring"
+            ],
+            "description": "tall boy of grey goose"
+        },
+        {
+            "name": "drunker",
+            "ingredients": [
+                "grey goose vodka",
+                "tall glass",
+                "tonic water",
+                "sugar",
+                "3 shots",
+                "red die coloring"
+            ],
+            "description": "3x tall boy of grey goose"
+        }
+    ]
+}
