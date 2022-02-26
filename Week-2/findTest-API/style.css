@@ -1,0 +1,29 @@
+/*!  CSS Page  */
+
+body {
+    background-color: aliceblue;
+}
+
+div {
+    border: 5px  double rgb(104, 103, 103);
+    border-radius: 10px;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.first-hr {
+    border: 3px outset rgb(12, 12, 12);
+    border-radius: 60px;
+    width: 400px;
+}
+
+div h3 {
+    font-size: 25px;
+}
+
+div,
+#data {
+    text-align: center;
+    background-color: rgb(226, 225, 225);
+}
