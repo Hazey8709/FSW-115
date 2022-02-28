@@ -345,5 +345,5 @@ for (var i = 0; i < woods.length; i++) {
     woodsList.innerHTML +=
         "<li>" + woods[i].name + "ID:" + woods[i].id + "</li>";
 }
-
+// Only displays Name & ID on this one 
 */
