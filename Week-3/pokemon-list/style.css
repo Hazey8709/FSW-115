@@ -1,0 +1,33 @@
+/*  ! CSS Page  */
+
+body {
+    background-color: rgb(190, 189, 189);
+}
+
+h2 {
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 435px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+ol {
+    border: 3px solid black;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: antiquewhite;
+}
+
+li {
+    text-align: center;
+    padding-top: 20px;
+}
+
+hr {
+    width: 300px;
+}
