@@ -161,7 +161,7 @@ var woods = [
 buildList(woods);
 
 function buildList(data) {
-    var table = document.getElementById("myList");
+    var list = document.getElementById("myList");
 
     for (var i = 0; i < data.length; i++) {
         var items = `
@@ -176,7 +176,7 @@ function buildList(data) {
     </li><br /><hr />
     `;
 
-        table.innerHTML += items;
+        list.innerHTML += items;
     }
 }
 
