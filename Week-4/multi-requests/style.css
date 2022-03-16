@@ -1,0 +1,182 @@
+/*!  CSS Page     */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightskyblue;
+}
+
+#pokemon_pic {
+    background-image: url(https://static0.gamerantimages.com/wordpress/wp-content/uploads/2020/12/ash-ketchum-pikachu-pokemon-kalos-anime.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-position-y: top;
+}
+
+#starWars_pic {
+    background-image: url(https://th.bing.com/th/id/OIP.pBdOuLW3zkj5DjYslbKg7QHaEK?w=279&h=180&c=7&r=0&o=5&pid=1.7);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+    background-position-y: top;
+
+}
+
+
+/*!  Nav  */
+.logo {
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.topNav {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+.topNav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topNav a:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid red;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.topNav a.active {
+    background-color: #0005;
+    border-radius: 10px;
+    color: white;
+}
+
+.topNav .icon {
+    display: none;
+    border-radius: 10px;
+}
+
+.topNav .icon:hover {
+    border: 2px solid red;
+}
+
+.topNav .icon:active {
+    background-color: rgba(19, 212, 19, 0.603);
+}
+
+/*!   Button Click for Data  */
+.btn-cont {
+    text-align: center;
+}
+
+.btn-cont > button {
+    background-color: rgba(3, 138, 3, 0.678);
+    color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 22px;
+    margin-top: 100px;
+}
+
+button:hover {
+    background-color: green;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+button:active {
+    background-color: yellow;
+    color: black;
+}
+
+/*!     Return Data  */
+#returnData-container {
+    background-color: rgba(0, 0, 0, 0.555);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 70%;
+    text-align: center;
+    cursor: pointer;
+}
+
+/*!  Line across separating items */
+hr {
+    width: 300px;
+    border: 3px double black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/*!  Responsive   */
+@media screen and (max-width: 500px) {
+    hr {
+        width: 200px;
+    }
+
+    #returnData {
+        font-size: 13px;
+        padding: 30px;
+    }
+
+    .logo {
+        margin-left: 155px;
+    }
+    .topNav a:not(:first-child) {
+        display: none;
+    }
+    .topNav a.icon {
+        float: right;
+        display: block;
+        color: black;
+        border: 1px solid black;
+        background-color: white;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .topNav.responsive {
+        position: relative;
+    }
+    .topNav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topNav.responsive a {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    hr {
+        background-color: white;
+    }
+
+    #returnData-container {
+        background-color: rgba(0, 0, 0, 0.822);
+        color: white;
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .topNav {
+        height: 100px;
+    }
+    .topNav a {
+        margin-right: 80px;
+        margin-top: 15px;
+    }
+}

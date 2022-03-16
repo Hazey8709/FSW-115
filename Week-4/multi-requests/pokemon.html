@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Pokemon API</title>
+    </head>
+    <body id="pokemon_pic">
+        <div class="topNav" id="myTopNav">
+            <a href="starWars.html" class="active">StarWars API</a>
+            <a href="pokemon.html">Pokemon API</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+            <img
+                class="logo"
+                src="/img/NoobieJ-logo-1.png"
+                width="100px"
+                alt="Logo Picture or design"
+            />
+        </div>
+
+        <div class="btn-cont">
+            <button id="pokemon">Get Pokemon API</button>
+        </div>
+        <div id="returnData-container">
+            <ol id="returnData"></ol>
+        </div>
+
+        <p>Copyright&copy;2022 &nbsp; By: Jordan .F</p>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"
+            integrity="sha512-lTLt+W7MrmDfKam+r3D2LURu0F47a3QaW5nF0c6Hl0JDZ57ruei+ovbg7BrZ+0bjVJ5YgzsAWE+RreERbpPE1g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="/js/pokemon.js"></script>
+    </body>
+</html>
