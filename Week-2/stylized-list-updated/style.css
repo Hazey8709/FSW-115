@@ -1,0 +1,41 @@
+/* CSS Page  */
+
+body {
+    background-color: aliceblue;
+}
+
+#myList > div {
+    background-color: rgb(161, 161, 161);
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+}
+
+h2 {
+    text-align: center;
+    border: 3px solid black;
+    border-top: none;
+    border-radius: 30px;
+    background-color: rgb(161, 161, 161);
+    padding: 5px;
+    text-decoration: underline;
+}
+
+div > .info-tag {
+    text-decoration: underline;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: red;
+}
+
+.div-1-color {
+    color: blue;
+}
+
+.div-2-color {
+    color: green;
+}
