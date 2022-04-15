@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+        <title>Todo List & Pokemon</title>
+    </head>
+    <body>
+        <h1 class="mainTitle">Todo List + Pokemon</h1>
+        <form id="firstForm" name="todoform" onsubmit="alertFunction()">
+            <input
+                class="inputs-1"
+                type="text"
+                placeholder="Todo Name"
+                name="title"
+                required
+            />
+
+            <input
+                class="inputs-1"
+                type="text"
+                placeholder="Description of Todo"
+                name="description"
+            />
+
+            <input
+                class="inputs-1"
+                type="number"
+                placeholder="Price"
+                name="price"
+            /><br />
+
+            <label for="todoComplete">Check if Incomplete?</label>
+            <input
+                type="checkbox"
+                id="todoComplete"
+                name="todoComplete"
+            /><br />
+
+            <button id="postTodo" class="todo-Btn">Submit</button>
+        </form>
+
+        <div id="pokemonContainer">
+            <button id="pokemon-btn">Get Pokemon</button><br />
+        </div>
+        <div id="todoContainer"></div>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.4/axios.min.js"
+            integrity="sha512-lTLt+W7MrmDfKam+r3D2LURu0F47a3QaW5nF0c6Hl0JDZ57ruei+ovbg7BrZ+0bjVJ5YgzsAWE+RreERbpPE1g=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script src="script.js"></script>
+        <p>Copyright&copy;2022 &nbsp; By: Jordan .F</p>
+    </body>
+</html>

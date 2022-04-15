@@ -1,0 +1,125 @@
+/*!    CSS   Page    */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: grey;
+}
+
+/*!     Title    */
+.mainTitle {
+    background-color: rgba(0, 0, 0, 0.589);
+    color: white;
+    border-bottom: 2px solid white;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    font-size: 62px;
+}
+
+/*!     Form     */
+#firstForm {
+    padding: 10px;
+    text-align: center;
+}
+
+.inputs-1 {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    font-size: 18px;
+    margin: 5px;
+}
+
+.inputs-1:hover {
+    background-color: #0005;
+    color: white;
+}
+
+.todo-Btn {
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0005;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.todo-Btn:hover,
+#pokemon-btn:hover {
+    border: 1px solid darkgreen;
+    background-color: green;
+}
+
+
+/*!      Todo  Container     */
+#todoContainer {
+    text-align: center;
+}
+
+#todoContainer > div {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0005;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#todoContainer > div:hover {
+    background-color: rgba(0, 0, 0, 0.603);
+}
+
+/*!  Buttons in Cards   */
+button {
+    padding: 5px;
+}
+
+.delete_btn {
+    background-color: red;
+    border-radius: 5px;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.edit_btn {
+    background-color: lightblue;
+    border-radius: 5px;
+    color: blue;
+    font-weight: bold;
+}
+
+/*!   Pokemon Container    */
+#pokemonContainer {
+    text-align: center;
+}
+
+#pokemonContainer > div {
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: #0005;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+#pokemonContainer > div:hover {
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
+
+#pokemon-btn{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #0005;
+    color: white;
+    font-size: 18px;
+    padding: 5px;
+
+}
